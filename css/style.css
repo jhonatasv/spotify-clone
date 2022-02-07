@@ -8,9 +8,9 @@
 
 :root {
     ---color-black: #000000;
-    ---color2: #1ed760;
-    ---color3: #fff;
-    ---cor-link-second: #d9dadc;
+    ---color-green: #1ed760;
+    ---color-white: #fff;
+    ---color-link-second: #d9dadc;
 }
 
 .header {
@@ -19,36 +19,62 @@
     height: 80px;
     background-color: var(---color-black);
     line-height: 5em;
-}
-
-.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 100px;
+}
+
+.navbar {
+    /* display: flex;
+    justify-content: space-between; */
+    /* align-items: center; */
+    /* padding: 0px 100px;   */
     
 }
 
-.logo-first {
+.logo-header {
     max-width: 120px;
     max-height: 40px;
-    background-color: #000000;
+    background-color: var(---color-black);
 }
 
-.nav-intems {
+ul.nav-intems {
     display: flex;
     gap: 39px;
+    animation: navegacao 2s infinite;
+    transition: 0.1s;
+}
+
+@keyframes navegacao {
+    from {
+        padding-left: 55%;
+        transition: 0.1s;
+        opacity: 20%;
+    }
+
+    to {
+        padding-left: 0%;
+    }
 }
 
 .nav-intems a:hover {
-    color: var(---color2);
+    color: var(---color-green);
+    transition: all 0.5s;
 }
 
 .nav-link {
-    color: var(---color3);
+    color: var(---color-white);
     font-weight: 700;
 }
 
+.nav-barra{
+    color: var(---color-white);
+    font-size: 17px;
+    font-weight: 500;
+    margin: auto;
+    /* width: 10px; */
+}
+
 .link-second {
-    color: var(---cor-link-second); 
+    color: var(---color-link-second); 
 }
