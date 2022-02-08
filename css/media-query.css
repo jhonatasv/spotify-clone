@@ -46,7 +46,7 @@
     }
 }
 
-@media (max-width: 787px) { /* para dispositivo mobile */
+@media (max-width: 787px) {
     .navbar {
         justify-content: space-between;
         padding: 0 20px;
