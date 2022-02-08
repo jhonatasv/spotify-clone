@@ -1,0 +1,24 @@
+@media (max-width:982px) {
+    .header {
+        height: 55px;
+    }
+    .menu-hamburguer {
+       display: block;
+       filter: contrast(1%);
+       background-color: transparent;
+       width: 35px;
+    }
+
+    ul.nav-intems {
+        display: none
+    }
+
+    .logo-header,
+    .menu-hamburguer {
+        margin-top: 10px;
+    }
+     
+    .logo-header {
+        max-width: 95px;
+    }
+}
