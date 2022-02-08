@@ -13,7 +13,11 @@
     <header class="header">
         <nav class="navbar">
             <img src="img/logo.png" alt="logo" class="logo-header">
-            <img src="img/teste.svg" alt="menu-icone" class="menu-hamburguer">
+            <div class="mobile-menu" onclick=" myFunction(this)">
+                <div class="icon-bar1"></div>
+                <div class="icon-bar2"></div>
+                <div class="icon-bar3"></div>
+            </div>
                 <ul class="nav-intems">
                     <li><a href="#" class="nav-link">Premium</a></li>
                     <li><a href="#" class="nav-link">Suporte</a></li>
@@ -30,5 +34,10 @@
 
         </section>
     </main>
+    <script>
+        function myFunction(x) {
+        x.classList.toggle("change");
+        }
+      </script>
 </body>
 </html>

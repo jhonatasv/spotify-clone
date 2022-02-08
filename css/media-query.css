@@ -2,11 +2,34 @@
     .header {
         height: 55px;
     }
-    .menu-hamburguer {
-       display: block;
-       filter: contrast(1%);
-       background-color: transparent;
-       width: 35px;
+
+    .mobile-menu {
+        display: inline-block;
+        cursor: pointer; 
+    }
+
+    .icon-bar1, 
+    .icon-bar2, 
+    .icon-bar3 {
+        width: 22px;
+        height: 3px;
+        margin: 4px 0;
+        transition: 0.4s;
+        background-color: white;
+    }
+    
+    .change .icon-bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-4px, 6px);
+    }
+
+    .change .icon-bar2 {
+        opacity: 0;
+    }
+
+    .change .icon-bar3 {
+        -webkit-transform: rotate(45deg) translate(8px, 8px);
+        transform: rotate(45deg) translate(-4px, -6px);
     }
 
     ul.nav-intems {
@@ -14,11 +37,20 @@
     }
 
     .logo-header,
-    .menu-hamburguer {
+    .mobile-menu {
         margin-top: 10px;
     }
      
     .logo-header {
         max-width: 95px;
     }
+}
+
+@media (max-width: 787px) { /* para dispositivo mobile */
+    .navbar {
+        justify-content: space-between;
+        padding: 0 20px;
+        height: 55px;
+    }
+   
 }

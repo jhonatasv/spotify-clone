@@ -62,12 +62,11 @@ ul.nav-intems {
     from {
         left: 50%;
         transform: translate(60%);
-        /* transition: all 0.5s;  */
         opacity: 20%;
     }
 
     to {
-        position: static;  
+        position: static; 
         left: 0%; 
     }
 }
@@ -85,9 +84,7 @@ ul.nav-intems {
 .nav-barra{
     color: var(---color-white);
     font-size: 17px;
-    font-weight: 500;
     margin: auto;
-    /* width: 10px; */
 }
 
 .link-second {
