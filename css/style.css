@@ -27,7 +27,6 @@ body {
     font-weight: 400;
     height: 80px;
     background-color: var(---color-black);
-    /* position: relative; */
     width: 100%;
 }
 
@@ -57,7 +56,6 @@ ul.nav-intems {
     display: flex;
     gap: 39px;
     animation: navegacao 1s ease;
-    /* overflow-x: hidden; */
 }
 
 @keyframes navegacao {
@@ -95,14 +93,12 @@ ul.nav-intems {
 
 .main {
     background-color: var(---background-color);
-    height: 55vw;
+    height: 65vw;
     width: 100%;
-    background-image: url(https://www-growth.scdn.co/static/home/bursts-tablet.svg);
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
     background-repeat: no-repeat;
-    background-position: 258% 57%;
-    background-size: 106%;
-    /* position: relative;    não preciasar de (position)*/
-    
+    background-position: 47% 0%;
+    background-size: 177%;
 }
 
 .conteiner {
@@ -111,10 +107,8 @@ ul.nav-intems {
     color: var(---color-green); 
     width: 100%; 
     padding-top: 14%;
-    /* position: absolute;   */ 
+    
     overflow: hidden;
-
-    left: 9%;
 } 
 
 .content {
@@ -136,6 +130,7 @@ ul.nav-intems {
 
 .paragraph {
     font-size: 18px;
+    font-weight: 500;
     padding-bottom: 20px;
     margin-bottom: 20px;
 }
@@ -144,7 +139,7 @@ ul.nav-intems {
   background-color: var(---color-green);
   border-radius: 500px;
   font-weight: 700;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 25px;
   letter-spacing: none;
   padding: 10px 20px;
@@ -154,20 +149,15 @@ ul.nav-intems {
 
 .download:hover {
     transform: scale(1.1);
-    transition:  all 100ms  linear;
+    transition: border var(---color-white) all 100ms  linear;
     background-color: var(---color-hover);
 } 
-
-/* .download a:focus-visible {
-    outline: 1px #000000;   
-} */
 
 .download:focus {
     border:solid 3px #fff; 
 }
 
 footer {
-    /* position: absolute; */
     width: 100%;
     background-color: #000000;
     padding: 80px 0 50px;
