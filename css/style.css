@@ -13,13 +13,14 @@
     ---color-white: #fff;
     ---color-link-second: #d9dadc;
     ---background-color:  #2941ab;
+    ---color-hover: #2DE26D;
 }
 
 html,
 body {
     width: 100%;
     height: 100%;
-    font-family: 'Roboto', Helvetica,Arial,sans-serif;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
 }
 
 .header {
@@ -94,67 +95,80 @@ ul.nav-intems {
 
 .main {
     background-color: var(---background-color);
-    height: 100vw;
-    /* margin: auto; */  
+    height: 55vw;
+    width: 100%;
+    background-image: url(https://www-growth.scdn.co/static/home/bursts-tablet.svg);
+    background-repeat: no-repeat;
+    background-position: 258% 57%;
+    background-size: 106%;
+    /* position: relative;    não preciasar de (position)*/
+    
 }
 
 .conteiner {
     display: flex;
     justify-content: center;
-    color: #1ed760; 
+    color: var(---color-green); 
     width: 100%; 
     padding-top: 14%;
-    /* align-content: center; */
-    /* align-items: center; */
+    /* position: absolute;   */ 
+    overflow: hidden;
+
+    left: 9%;
 } 
 
 .content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1024px;  
-    background-color: rgba(24, 21, 21, 0.37);
-    /* justify-content: ; */
-    /* margin-top: 14%; */
-    /* line-height: 130px; */
+    width: 1024px;
 }
-
 
 .title-main {
     font-size: 156px;
-    font-weight: bold;
+    font-weight: bolder;
     text-align: center;
     color: var(---color-green);
-    line-height: 146px;
-    letter-spacing: -8px;
+    line-height: 166px;
+    letter-spacing: -6px;
     padding-bottom: 50px;
-    /* width: 750px;  */
-    /* margin-top: 25%; */
 }
 
 .paragraph {
- font-size: 18px;
- /* width: 400px; */
- font-weight: bold;
- padding-bottom: 20px;
+    font-size: 18px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .download {
-  background-color: #1ed760;
+  background-color: var(---color-green);
   border-radius: 500px;
   font-weight: 700;
   font-size: 13px;
-  line-height: 20px;
+  line-height: 25px;
   letter-spacing: none;
-  padding: 10px;
+  padding: 10px 20px;
+  margin: 5px;
   color: var(---background-color, ---color-black);
 }
 
-/* .download:hover {
-    background-color: ;
+.download:hover {
+    transform: scale(1.1);
+    transition:  all 100ms  linear;
+    background-color: var(---color-hover);
+} 
+
+/* .download a:focus-visible {
+    outline: 1px #000000;   
 } */
 
+.download:focus {
+    border:solid 3px #fff; 
+}
+
 footer {
+    /* position: absolute; */
+    width: 100%;
     background-color: #000000;
     padding: 80px 0 50px;
 }
