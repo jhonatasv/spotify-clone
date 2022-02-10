@@ -1,3 +1,31 @@
+@media (max-width: 1200px) {
+    .main {
+        background-image: url(https://www-growth.scdn.co/static/home/bursts-tablet.svg);
+        background-position: 76% 57%;
+        background-size: 140%;
+        /* background-position: 65% 63%;
+        background-size: 123%; */
+    }
+
+    .content {
+        width: 717px; /*  807/ 897*/
+    }
+
+    .title-content {
+        font-size: max(60px, 9vw);
+        padding: 10px;
+        line-height: 103px;
+    }
+    .paragraph {
+      margin-bottom: 0;
+      max-width: 381px;
+      text-align: center;
+      padding-top: 12px;
+      padding-bottom: 26px;
+    }
+}
+
+
 @media (max-width:982px) {
     .header {
         height: 55px;
