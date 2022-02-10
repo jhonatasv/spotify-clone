@@ -54,7 +54,7 @@ body {
 
 ul.nav-intems {
     display: flex;
-    gap: 39px;
+    gap: 36px; /*36/ 39 */
     animation: navegacao 1s ease;
 }
 
@@ -82,9 +82,12 @@ ul.nav-intems {
 }
 
 .nav-barra{
-    color: var(---color-white);
-    font-size: 17px;
-    margin: auto;
+    
+    width: 1px;
+    height: 16px;
+    display: inline-block;
+    transform: rotate(360deg);
+    background-color: var(---color-white);
 }
 
 .link-second {
@@ -97,8 +100,8 @@ ul.nav-intems {
     width: 100%;
     background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
     background-repeat: no-repeat;
-    background-position: 47% 0%;
-    background-size: 177%;
+    background-position: 46% 6%;
+    background-size: 180%;
 }
 
 .conteiner {
