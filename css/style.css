@@ -55,7 +55,7 @@ body {
 
 ul.nav-intems {
     display: flex;
-    gap: 36px; /*36/ 39 */
+    gap: 36px;
     animation: navegacao 1s ease;
 }
 
@@ -140,15 +140,15 @@ ul.nav-intems {
 }
 
 .download {
-  background-color: var(---color-green);
-  border-radius: 500px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 25px;
-  letter-spacing: none;
-  padding: 10px 20px;
-  margin: 5px;
-  color: var(---background-blue, ---color-black);
+    background-color: var(---color-green);
+    border-radius: 500px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: none;
+    padding: 10px 20px;
+    margin: 5px;
+    color: var(---background-blue, ---color-black);
 }
 
 .download:hover {

@@ -18,7 +18,7 @@
         text-align: center;
         padding-top: 12px;
         padding-bottom: 26px;
-      }
+    }
 }
 
 @media (max-width: 1018px) {
@@ -78,7 +78,7 @@
     }
 } 
 
- @media (max-width: 490px) {
+@media (max-width: 490px) {
     .main {
         background: url(https://www-growth.scdn.co/static/home/bursts-mobile.svg);
         background-position: 45% 43%;
@@ -99,7 +99,6 @@
     }
 } 
 
-
 @media (max-width: 322px) {
     .main {
         background: url(https://www-growth.scdn.co/static/home/bursts-mobile.svg);
@@ -109,7 +108,7 @@
     }
 }
 
- @media (max-width: 298px) {
+@media (max-width: 298px) {
     .main {
         background: url(https://www-growth.scdn.co/static/home/bursts-mobile.svg);
         background-position: 45% 43%;
@@ -117,8 +116,6 @@
         background-color: var(---background-blue);
     }
 }  
-
-
 
 @media (max-width:982px) {
     .header {
