@@ -13,7 +13,7 @@
     ---color-green: #1ed760;
     ---color-white: #fff;
     ---color-link-second: #d9dadc;
-    ---background-color:  #2941ab;
+    ---background-blue:  #2941ab;
     ---color-hover: #2DE26D;
 }
 
@@ -83,7 +83,6 @@ ul.nav-intems {
 }
 
 .nav-barra{
-    
     width: 1px;
     height: 16px;
     display: inline-block;
@@ -96,30 +95,29 @@ ul.nav-intems {
 }
 
 .main {
-    background-color: var(---background-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(---background-blue);
     height: 65vw;
-    width: 100%;
     background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
     background-repeat: no-repeat;
     background-position: 46% 6%;
     background-size: 180%;
+    transition: all 0.4s;
 }
 
 .conteiner {
     display: flex;
-    justify-content: center;
+    align-items: center;
     color: var(---color-green); 
-    width: 100%; 
-    padding-top: 14%;
-    
-    overflow: hidden;
 } 
 
 .content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1024px;
+    max-width: 1024px; 
 }
 
 .title-content {
@@ -130,6 +128,7 @@ ul.nav-intems {
     line-height: 166px;
     letter-spacing: -6px;
     padding-bottom: 50px;
+    transition: all 0.5s;
 }
 
 .paragraph {
@@ -137,6 +136,7 @@ ul.nav-intems {
     font-weight: 500;
     padding-bottom: 20px;
     margin-bottom: 20px;
+    transition: all 0.5s;
 }
 
 .download {
@@ -148,7 +148,7 @@ ul.nav-intems {
   letter-spacing: none;
   padding: 10px 20px;
   margin: 5px;
-  color: var(---background-color, ---color-black);
+  color: var(---background-blue, ---color-black);
 }
 
 .download:hover {
