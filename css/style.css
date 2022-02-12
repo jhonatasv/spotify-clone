@@ -15,6 +15,8 @@
     ---color-link-second: #d9dadc;
     ---background-blue:  #2941ab;
     ---color-hover: #2DE26D;
+    ---color-background-icon: #222326;
+    ---coor-paragraph-footer: #919496;
 }
 
 html,
@@ -40,7 +42,7 @@ body {
     line-height: 80px;
 }
 
-.logo-header {
+.logo {
     padding: 1px;
     max-width: 120px;
     max-height: 40px;
@@ -161,15 +163,72 @@ ul.nav-intems {
     border:solid 3px #fff; 
 }
 
-footer {
-    width: 100%;
-    background-color: #000000;
+.footer {
+    background-color: var(---color-black);
     padding: 80px 0 50px;
+    transition: all 0.5s;
+}
+
+.conteiner-footer {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .logo-footer {
-    max-width: 120px;
-    max-height: 40px;
-    padding: 1px;
-    margin-left: 10px;
+    padding-right: 45px;
 }
+
+.content-footer {
+    display: flex;
+    gap: 60px;
+    min-width: fit-content;
+    padding: 13px 0;
+}
+
+.paragraph-footer {
+    color: var(---coor-paragraph-footer);
+    font-weight: bold;
+}
+
+.content-footer ul li {   
+    margin-bottom: 15px;
+    line-height: 27px;
+}
+
+.content-footer ul li a {
+    color: var(---color-white);
+}
+
+.social {
+    width: 205px;
+    height: 149px;
+}
+
+.social ul {
+    display: flex;
+    gap: 20px;
+} 
+
+.social ul li {
+    background-color:var(---color-background-icon);
+    border-radius: 50%; 
+    height: 55px;
+    width: 55px; 
+} 
+
+.social ul li a {
+    display: contents;
+}
+
+.social-icon {
+    background-color: var(---color-white);
+    width: 27px;
+    margin: 14px;
+}
+
+.social-icon:hover {
+    background-color: var(---color-hover);
+    transition: all 0.5s;
+}
+
