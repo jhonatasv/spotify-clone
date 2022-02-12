@@ -171,12 +171,12 @@ ul.nav-intems {
 
 .conteiner-footer {
     display: flex;
-    width: 80%;
+    width: 82%;
     margin: 0 auto;
 }
 
 .logo-footer {
-    padding-right: 45px;
+    padding-right: 60px;
 }
 
 .content-footer {
@@ -200,9 +200,15 @@ ul.nav-intems {
     color: var(---color-white);
 }
 
+.content-footer ul li a:hover {
+    color: var(---color-green);
+}
+
 .social {
     width: 205px;
     height: 149px;
+    margin-left: 24%;
+    padding: 10px 10px 0;
 }
 
 .social ul {
