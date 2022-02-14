@@ -184,6 +184,7 @@ ul.nav-intems {
     gap: 60px;
     min-width: fit-content;
     padding: 13px 0;
+    transition: all 0.5s;
 }
 
 .paragraph-footer {
@@ -202,6 +203,7 @@ ul.nav-intems {
 
 .content-footer ul li a:hover {
     color: var(---color-green);
+    transition: all 0.5s;
 }
 
 .social {
@@ -209,6 +211,7 @@ ul.nav-intems {
     height: 149px;
     margin-left: 24%;
     padding: 10px 10px 0;
+    transition: all 0.5s;
 }
 
 .social ul {
@@ -221,6 +224,7 @@ ul.nav-intems {
     border-radius: 50%; 
     height: 55px;
     width: 55px; 
+    transition: all 0.5s;
 } 
 
 .social ul li a {
