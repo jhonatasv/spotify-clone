@@ -250,17 +250,21 @@ ul.nav-intems {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
-  padding: 20px 10px;
+  padding: 50px 10px;
   margin: 0 auto;
-  width: 75%;
+  width: 82%;
   font-size: 0.75rem;
   align-items: flex-end;
+  flex-wrap: wrap;
+  transition: all 0.5s;
 }
 
 .terms-info {
     color: var(---coor-paragraph-footer);
     display: flex;
     flex-direction: column;
+    max-width: 102px;
+    transition: all 0.5s;
 }
 
 .terms-itens {
@@ -279,11 +283,18 @@ ul.nav-intems {
 .terms-links {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 25px;
+    transition: all 0.5s;
 }
 
 .terms-links li a {
     color: var(---coor-paragraph-footer);
  
 }
+
+.terms-links li a:hover {
+    color: var(---color-hover);
+    transition: all 0.5s;
+}
+
 

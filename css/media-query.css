@@ -217,18 +217,27 @@
        height: 48px;
        width: 48px;
     }
+    .terms-links {
+        padding-left: 0;
+    }
    
 }
 
-/* @media(max-width: 895px) {
-    .teste {
-       flex-direction: column;
-    }
-
+@media (max-width: 324px) {
+    .conteiner-terms {
+        display: flex;
+        padding: 20px 0;
+        width: 91%;
+    } 
 }
 
+@media (max-width: 775px) {
+    .terms-links {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
 
-
-@media (max-width: 500px) {
-    
-}  */
+    .terms-links li {
+        padding-bottom: 17px;
+}   }
