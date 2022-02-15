@@ -165,7 +165,7 @@ ul.nav-intems {
 
 .footer {
     background-color: var(---color-black);
-    padding: 80px 0 50px;
+    padding: 80px 0 0;
     transition: all 0.5s;
 }
 
@@ -240,5 +240,50 @@ ul.nav-intems {
 .social-icon:hover {
     background-color: var(---color-hover);
     transition: all 0.5s;
+}
+
+
+
+/*termos */
+
+.conteiner-terms {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding: 20px 10px;
+  margin: 0 auto;
+  width: 75%;
+  font-size: 0.75rem;
+  align-items: flex-end;
+}
+
+.terms-info {
+    color: var(---coor-paragraph-footer);
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-itens {
+    display: flex;
+    padding-bottom: 10px;
+    justify-content: flex-end;
+}
+
+.terms-itens img {
+    padding-right: 10px;
+    height: 12px;
+    width: auto;
+    filter: brightness(60%);
+}
+
+.terms-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.terms-links li a {
+    color: var(---coor-paragraph-footer);
+ 
 }
 
