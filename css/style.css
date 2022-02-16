@@ -165,14 +165,14 @@ body {
 }
 
 .download:hover {
-    transform: scale(1.1);
+    transform: scale(1.04);
     transition: border var(---color-white) all 100ms  linear;
     background-color: var(---color-hover);
 }
 
-.download:focus {
-    border:solid 3px #fff;
-}
+/* .download:focus {
+    border: inset 3px #fff;
+} */
 
 .footer {
     background-color: var(---color-black);
