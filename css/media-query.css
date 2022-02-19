@@ -110,7 +110,7 @@
     }
 } 
 
-@media (max-width: 322px) {
+@media (max-width: 342px) {
     .main {
         background: url(https://www-growth.scdn.co/static/home/bursts-mobile.svg);
         background-position: 45% 43%;
@@ -136,6 +136,10 @@
     .mobile-menu {
         display: inline-block;
         cursor: pointer; 
+    }
+
+    .logo {
+        padding: 5px;
     }
 
     .icon-bar1, 
