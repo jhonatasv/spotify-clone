@@ -21,6 +21,17 @@
     }
 }
 
+@media (max-width: 1024px) {
+    .logo-header {
+        margin-left: 0px; 
+       
+    }
+    .navbar {
+        padding: 0px 100px 0 94px;
+    }
+}
+
+
 @media (max-width: 1018px) {
     .main {
        height: 100%;

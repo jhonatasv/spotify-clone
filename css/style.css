@@ -57,6 +57,10 @@ body {
     margin: 7px 2px 0;
 }
 
+.logo-header {
+    margin-left: 23px;
+}
+
 .menu-hamburguer {
     display: none;
 }
