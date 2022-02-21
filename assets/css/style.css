@@ -2,9 +2,9 @@
 
 @font-face {
     font-family: 'Circular';
-    src: url('/fontes/CircularStd-Bold.otf') format('OpenType'),
-    url('/fontes/CircularStd-Book.otf') format('OpenType')
-    url(/fontes/CircularStd-Book.otf) format('OpenType');
+    src: url('/assets/fontes/CircularStd-Bold.otf') format('OpenType'),
+    url('/assets/fontes/CircularStd-Book.otf') format('OpenType')
+    url('/assets/fontes/CircularStd-Black.otf') format('OpenType');
     font-weight: normal;
     font-style: normal;
 }
