@@ -30,18 +30,15 @@ Essa pagina foi feita exclusivamente para demonstrar os meus conhecimentos em **
  <p>Fontes baixada na <a href="http://www.onlinewebfonts.com">Fontes da Web on-line</a></p>
 
  ## Result
-
+   
  <div align="center">
-  <p>Official page of<a href="https://www.spotify.com/br/"> Spotify</a></p>
-    <img height="180px" src=""/>
+    <p> Clone <a href="https://jhonatasv.github.io/spotify-clone/"</a>Spotify</p>
+    <img height="650px" src="https://github.com/jhonatasv/spotify-clone/blob/master/assets/Readm-img-Spotify/clone-spotify.png"/>
+    
   <hr>
+   
+  <p> Official page of <a href="https://www.spotify.com/br/"</a>Spotify</p>
+    <img height="650px" src="https://github.com/jhonatasv/spotify-clone/blob/master/assets/Readm-img-Spotify/spotify-ofical.png"/>
+   </div>
 
-  <p>Clone</p>
-  <img height="180px" src=""/>
- </div>
-
-
-
-
-
-
+ 
