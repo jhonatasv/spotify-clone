@@ -1,8 +1,8 @@
- <div align="center">
-   <img height="180px" src="https://cdn.pixabay.com/photo/2016/04/28/23/53/spotify-1360002_960_720.jpg"/> <br>
+<div align="center">
+  <img height="180px" src="https://cdn.pixabay.com/photo/2016/04/28/23/53/spotify-1360002_960_720.jpg"/> <br>
   
-  # clone da página oficial do <a href="https://www.spotify.com/br/">_**Spotify**_</a>
- </div>
+  # clone da página oficial do <a href="https://www.spotify. com/br/">_**Spotify**_</a>
+</div>
   
 
 ***
@@ -13,17 +13,33 @@ Essa pagina foi feita exclusivamente para demonstrar os meus conhecimentos em **
 
 
 ## Tecnologias usadas:
-HTML, CSS
+**HTML**, **CSS**
 
 ###  extensão:
   <a href="https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=pt-BR">ColorZilla</a>
    
-  <p>ColorZilla você pode obter uma leitura de cores de qualquer ponto do seu navegador, ajustar rapidamente esta cor e colá-la em outro programa. E pode fazer muito    mais...<p/>
+  <p>ColorZilla você pode obter uma leitura de cores de qualquer ponto do seu navegador, ajustar rapidamente esta cor e colá-la em outro programa. E pode fazer muito    mais...</p>
 
-<a href="https://chrome.google.com/webstore/detail/fonts-ninja/eljapbgkmlngdpckoiiibecpemleclhh">Fonts Ninja<a/>
+  <a href="https://chrome.google.com/webstore/detail/fonts-ninja/eljapbgkmlngdpckoiiibecpemleclhh">Fonts Ninja</a>
  
   <p>O algoritmo analisa os arquivos de fonte para obter resultados mais precisos.
-     Passe qualquer texto para obter o nome da fonte e as propriedades CSS.<p/>
+  Passe qualquer texto para obter o nome da fonte e as propriedades CSS.</p>
+
+  <hr>
+  
+ <p>Fontes baixada na <a href="http://www.onlinewebfonts.com">Fontes da Web on-line</a></p>
+
+ ## Result
+
+ <div align="center">
+  <p>Official page of<a href="https://www.spotify.com/br/"> Spotify</a></p>
+    <img height="180px" src=""/>
+  <hr>
+
+  <p>Clone</p>
+  <img height="180px" src=""/>
+ </div>
+
 
 
 
