@@ -21,6 +21,12 @@
     }
 }
 
+@media(max-width: 1440px){
+    .conteiner-terms {
+        width: 73%; 
+    }
+}
+
 @media (max-width: 1024px) {
     .logo-header {
         margin-left: 0px; 
@@ -28,6 +34,10 @@
     }
     .navbar {
         padding: 0px 100px 0 94px;
+    }
+
+    .conteiner-terms {
+        width: 82%; 
     }
 }
 
@@ -251,6 +261,12 @@
     }
 
 }   
+
+@media (max-width: 400px) {
+    .logo-header {
+        margin: 7px 0 0 0;
+    }
+}
 
 
 @media (max-width: 390px) {
