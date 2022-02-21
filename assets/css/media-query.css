@@ -252,6 +252,12 @@
 
 }   
 
+@media (max-width: 400px) {
+    .logo-header {
+        margin: 7px 0 0 0;
+    }
+}
+
 
 @media (max-width: 390px) {
     .content-footer {
