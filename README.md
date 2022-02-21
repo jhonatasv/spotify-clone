@@ -32,13 +32,13 @@ Essa pagina foi feita exclusivamente para demonstrar os meus conhecimentos em **
  ## Result
    
  <div align="center">
-    <p> Clone <a href="https://jhonatasv.github.io/spotify-clone/"</a>Spotify</p>
-    <img height="650px" src="https://github.com/jhonatasv/spotify-clone/blob/master/assets/Readm-img-Spotify/clone-spotify.png"/>
+  <p> Clone <a href="https://jhonatasv.github.io/spotify-clone/"> Spotify</p>
+  <img height="650px" src="https://github.com/jhonatasv/spotify-clone/blob/master/assets/Readm-img-Spotify/clone-spotify.png">
     
   <hr>
    
-  <p> Official page of <a href="https://www.spotify.com/br/"</a>Spotify</p>
-    <img height="650px" src="https://github.com/jhonatasv/spotify-clone/blob/master/assets/Readm-img-Spotify/spotify-ofical.png"/>
-   </div>
+  <a href="https://www.spotify.com/br/"> Official page of Spotify</p>
+  <img height="650px" src="https://github.com/jhonatasv/spotify-clone/blob/master/assets/Readm-img-Spotify/spotify-ofical.png">
+  </div>
 
  
