@@ -27,7 +27,6 @@ Essa pagina foi feita exclusivamente para demonstrar os meus conhecimentos em **
 
   <hr>
   
- <p>Fontes baixada na <a href="http://www.onlinewebfonts.com">Fontes da Web on-line</a></p>
 
  ## Result
    
