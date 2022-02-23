@@ -1,14 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap');
 
-
-/* @font-face {
-    font-family: 'Circular';
-    src: url('/assets/fontes/CircularSpotifyTxT-Black.otf') format('OpenType');
-
-    font-family: "Circular"; 
-    access denied to source :(
-} */
-
 * {
     margin: 0px;
     padding: 0px;
@@ -247,10 +238,6 @@ body {
     background-color: var(---color-hover);
     transition: all 0.5s;
 }
-
-
-
-/*termos */
 
 .conteiner-terms {
   display: flex;
